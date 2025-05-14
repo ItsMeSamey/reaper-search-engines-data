@@ -28,7 +28,7 @@
     // existing data should get a new version. Otherwise, existing data may
     // continue to be used and updates made here will not always appear.
     // Also then run tools/search_engine_choice/generate_search_engine_icons.py.
-    "kCurrentDataVersion": 183
+    "kCurrentDataVersion": 184
   },
 
   // The following engines are included in country lists and are added to the
@@ -1062,6 +1062,7 @@
       "keyword": "yandex.com.tr",
       "favicon_url": "https://yastatic.net/lego/_/rBTjd6UOPk5913OSn5ZQVYMTQWQ.ico",
       "base_builtin_resource_id": "IDR_SEARCH_ENGINE_YANDEX",
+      "logo_url": "https://storage.ape.yandex.net/get/browser/Doodles/chrome_tr/logo.png",
       "search_url": "https://www.yandex.com.tr/{yandex:searchPath}?text={searchTerms}",
       "suggest_url": "https://suggest.yandex.com.tr/suggest-ff.cgi?part={searchTerms}&{google:cursorPosition}",
       "image_url": "https://yandex.com.tr/gorsel/search?rpt=imageview",
