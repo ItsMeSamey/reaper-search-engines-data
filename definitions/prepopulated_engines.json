@@ -28,7 +28,7 @@
     // existing data should get a new version. Otherwise, existing data may
     // continue to be used and updates made here will not always appear.
     // Also then run tools/search_engine_choice/generate_search_engine_icons.py.
-    "kCurrentDataVersion": 186
+    "kCurrentDataVersion": 187
   },
 
   // The following engines are included in country lists and are added to the
@@ -919,7 +919,7 @@
       "keyword": "yandex.by",
       "favicon_url": "https://yastatic.net/s3/web4static/_/v2/v9YNE_BX0evwMHbDyd0NZv8ReK0.png",
       "base_builtin_resource_id": "IDR_SEARCH_ENGINE_YANDEX",
-      "logo_url": "https://storage.ape.yandex.net/get/browser/Doodles/yandex/drawable-xxhdpi/yandex.png",
+      "logo_url": "https://storage.ape.yandex.net/get/browser/Doodles/chrome_ru/logo.png",
       "search_url": "https://yandex.by/{yandex:searchPath}?text={searchTerms}",
       "suggest_url": "https://suggest.yandex.by/suggest-ff.cgi?part={searchTerms}&{google:cursorPosition}",
       "image_url": "https://yandex.by/images/search/?rpt=imageview",
@@ -934,6 +934,7 @@
       "keyword": "yandex.com",
       "favicon_url": "https://yastatic.net/s3/web4static/_/v2/v9YNE_BX0evwMHbDyd0NZv8ReK0.png",
       "base_builtin_resource_id": "IDR_SEARCH_ENGINE_YANDEX",
+      "logo_url": "https://storage.ape.yandex.net/get/browser/Doodles/chrome_com/logo.png",
       "search_url": "https://yandex.com/{yandex:searchPath}?text={searchTerms}",
       "suggest_url": "https://suggest.yandex.com/suggest-ff.cgi?part={searchTerms}&{google:cursorPosition}",
       "image_url": "https://yandex.com/images/search?rpt=imageview",
@@ -959,7 +960,7 @@
       "keyword": "yandex.kz",
       "favicon_url": "https://yastatic.net/lego/_/pDu9OWAQKB0s2J9IojKpiS_Eho.ico",
       "base_builtin_resource_id": "IDR_SEARCH_ENGINE_YANDEX",
-      "logo_url": "https://storage.ape.yandex.net/get/browser/Doodles/yandex/drawable-xxhdpi/yandex.png",
+      "logo_url": "https://storage.ape.yandex.net/get/browser/Doodles/chrome_kz/logo.png",
       "search_url": "https://yandex.kz/{yandex:searchPath}?text={searchTerms}",
       "suggest_url": "https://suggest.yandex.kz/suggest-ff.cgi?part={searchTerms}&{google:cursorPosition}",
       "image_url": "https://yandex.kz/images/search/?rpt=imageview",
@@ -974,7 +975,7 @@
       "keyword": "yandex.ru",
       "favicon_url": "https://yastatic.net/lego/_/pDu9OWAQKB0s2J9IojKpiS_Eho.ico",
       "base_builtin_resource_id": "IDR_SEARCH_ENGINE_YANDEX",
-      "logo_url": "https://storage.ape.yandex.net/get/browser/Doodles/yandex/drawable-xxhdpi/yandex.png",
+      "logo_url": "https://storage.ape.yandex.net/get/browser/Doodles/chrome_ru/logo.png",
       "search_url": "https://yandex.ru/{yandex:searchPath}?text={searchTerms}&{yandex:referralID}",
       "suggest_url": "https://suggest.yandex.ru/suggest-ff.cgi?part={searchTerms}&{google:cursorPosition}",
       "image_url": "https://yandex.ru/images/search/?rpt=imageview",
