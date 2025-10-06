@@ -28,7 +28,7 @@
     // existing data should get a new version. Otherwise, existing data may
     // continue to be used and updates made here will not always appear.
     // Also then run tools/search_engine_choice/generate_search_engine_icons.py.
-    "kCurrentDataVersion": 189
+    "kCurrentDataVersion": 190
   },
 
   // The following engines are included in country lists and are added to the
@@ -54,6 +54,7 @@
       "keyword": "bing.com",
       "favicon_url": "https://www.bing.com/sa/simg/bing_p_rr_teal_min.ico",
       "base_builtin_resource_id": "SEARCH_ENGINE_BING",
+      "logo_url": "https://cdn.sapphire.microsoftapp.net/icons/bing_144.png",
       "search_url": "https://www.bing.com/search?q={searchTerms}",
       "suggest_url": "https://www.bing.com/osjson.aspx?query={searchTerms}&language={language}",
       "image_url": "https://www.bing.com/images/detail/search?iss=sbiupload&FORM=CHROMI#enterInsights",
@@ -121,6 +122,7 @@
       "keyword": "duckduckgo.com",
       "favicon_url": "https://duckduckgo.com/favicon.ico",
       "base_builtin_resource_id": "SEARCH_ENGINE_DUCKDUCKGO",
+      "logo_url": "https://staticcdn.duckduckgo.com/serp-fe/www/logos/dynamic/DuckDuckGoLogo.png",
       "search_url": "https://duckduckgo.com/?q={searchTerms}",
       "suggest_url": "https://duckduckgo.com/ac/?q={searchTerms}&type=list",
       "new_tab_url": "https://duckduckgo.com/chrome_newtab",
@@ -739,12 +741,23 @@
       "name": "Yahoo! JAPAN",
       "keyword": "yahoo.co.jp",
       "favicon_url": "https://search.yahoo.co.jp/favicon.ico",
-      "base_builtin_resource_id": "SEARCH_ENGINE_YAHOO",
-      "search_url": "https://search.yahoo.co.jp/search{google:pathWildcard}?ei={inputEncoding}&fr=crmas&p={searchTerms}",
+      "base_builtin_resource_id": "SEARCH_ENGINE_YAHOO_JP",
+      "logo_url": "https://s.yimg.jp/images/search/top/yjlogo.png",
+      "search_url": "https://search.yahoo.co.jp/search{google:pathWildcard}?ei={inputEncoding}&p={searchTerms}",
       "suggest_url": "https://search.yahooapis.jp/AssistSearchService/V2/webassistSearch?p={searchTerms}&appid=oQsoxcyxg66enp0TYoirkKoryq6rF8bK76mW0KYxZ0v0WPLtn.Lix6wy8F_LwGWHUII-&output=fxjson&fr=crmas",
       "new_tab_url": "https://search.yahoo.co.jp/?fr=crmas_dt",
       "type": "SEARCH_ENGINE_YAHOO",
-      "id": 2
+      "id": 2,
+      "regulatory_extensions": [
+        {
+          "variant": "RegulatoryExtensionType::kDefault",
+          "search_params": "fr=crmas"
+        },
+        {
+          "variant": "RegulatoryExtensionType::kAndroidEEA",
+          "search_params": "fr=crmset"
+        }
+      ]
     },
 
     "yahoo_mx": {
