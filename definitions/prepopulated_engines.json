@@ -28,7 +28,7 @@
     // existing data should get a new version. Otherwise, existing data may
     // continue to be used and updates made here will not always appear.
     // Also then run tools/search_engine_choice/generate_search_engine_icons.py.
-    "kCurrentDataVersion": 197
+    "kCurrentDataVersion": 198
   },
 
   // The following engines are included in country lists and are added to the
@@ -253,21 +253,6 @@
       "id": 111
     },
 
-    "mail_ru": {
-      "name": "@MAIL.RU",
-      "keyword": "mail.ru",
-      "favicon_url": "https://go.imgsmail.ru/favicon.ico",
-      "base_builtin_resource_id": "SEARCH_ENGINE_MAILRU",
-      "search_url": "https://go.mail.ru/search?q={searchTerms}&{mailru:referralID}&fr=ch_omnibox",
-      "alternate_urls": [
-        "https://go.mail.ru/msearch?q={searchTerms}&{mailru:referralID}"
-      ],
-      "new_tab_url": "https://go.mail.ru/chrome/newtab/",
-      "suggest_url": "https://suggests.go.mail.ru/chrome?q={searchTerms}",
-      "type": "SEARCH_ENGINE_MAILRU",
-      "id": 83
-    },
-
     "mojeek": {
       "name": "Mojeek",
       "keyword": "mojeek.com",
@@ -444,17 +429,6 @@
       "id": 2
     },
 
-    "yahoo_ar": {
-      "name": "Yahoo! Argentina",
-      "keyword": "ar.yahoo.com",
-      "favicon_url": "https://ar.search.yahoo.com/favicon.ico",
-      "base_builtin_resource_id": "SEARCH_ENGINE_YAHOO",
-      "search_url": "https://ar.search.yahoo.com/search{google:pathWildcard}?ei={inputEncoding}&fr=crmas&p={searchTerms}",
-      "suggest_url": "https://ar.search.yahoo.com/sugg/chrome?output=fxjson&appid=crmas&command={searchTerms}",
-      "type": "SEARCH_ENGINE_YAHOO",
-      "id": 2
-    },
-
     "yahoo_at": {
       "name": "Yahoo Search",
       "keyword": "at.yahoo.com",
@@ -476,72 +450,6 @@
           "suggest_params": "appid=gglandreucrmas"
         }
       ]
-    },
-
-    "yahoo_au": {
-      "name": "Yahoo!",
-      "keyword": "au.yahoo.com",
-      "favicon_url": "https://au.search.yahoo.com/favicon.ico",
-      "base_builtin_resource_id": "SEARCH_ENGINE_YAHOO",
-      "search_url": "https://au.search.yahoo.com/search{google:pathWildcard}?ei={inputEncoding}&fr=crmas&p={searchTerms}",
-      "suggest_url": "https://au.search.yahoo.com/sugg/chrome?output=fxjson&appid=crmas&command={searchTerms}",
-      "type": "SEARCH_ENGINE_YAHOO",
-      "id": 2
-    },
-
-    "yahoo_br": {
-      "name": "Yahoo! Brasil",
-      "keyword": "br.yahoo.com",
-      "favicon_url": "https://br.search.yahoo.com/favicon.ico",
-      "base_builtin_resource_id": "SEARCH_ENGINE_YAHOO",
-      "search_url": "https://br.search.yahoo.com/search{google:pathWildcard}?ei={inputEncoding}&fr=crmas&p={searchTerms}",
-      "suggest_url": "https://br.search.yahoo.com/sugg/chrome?output=fxjson&appid=crmas&command={searchTerms}",
-      "type": "SEARCH_ENGINE_YAHOO",
-      "id": 2
-    },
-
-    "yahoo_ca": {
-      "name": "Yahoo! Canada",
-      "keyword": "ca.yahoo.com",
-      "favicon_url": "https://ca.search.yahoo.com/favicon.ico",
-      "base_builtin_resource_id": "SEARCH_ENGINE_YAHOO",
-      "search_url": "https://ca.search.yahoo.com/search{google:pathWildcard}?ei={inputEncoding}&fr=crmas&p={searchTerms}",
-      "suggest_url": "https://ca.search.yahoo.com/sugg/chrome?output=fxjson&appid=crmas&command={searchTerms}",
-      "type": "SEARCH_ENGINE_YAHOO",
-      "id": 2
-    },
-
-    "yahoo_ch": {
-      "name": "Yahoo! Schweiz",
-      "keyword": "ch.yahoo.com",
-      "favicon_url": "https://ch.search.yahoo.com/favicon.ico",
-      "base_builtin_resource_id": "SEARCH_ENGINE_YAHOO",
-      "search_url": "https://ch.search.yahoo.com/search{google:pathWildcard}?ei={inputEncoding}&fr=crmas&p={searchTerms}",
-      "suggest_url": "https://ch.search.yahoo.com/sugg/chrome?output=fxjson&appid=crmas&command={searchTerms}",
-      "type": "SEARCH_ENGINE_YAHOO",
-      "id": 2
-    },
-
-    "yahoo_cl": {
-      "name": "Yahoo! Chile",
-      "keyword": "cl.yahoo.com",
-      "favicon_url": "https://cl.search.yahoo.com/favicon.ico",
-      "base_builtin_resource_id": "SEARCH_ENGINE_YAHOO",
-      "search_url": "https://cl.search.yahoo.com/search{google:pathWildcard}?ei={inputEncoding}&fr=crmas&p={searchTerms}",
-      "suggest_url": "https://cl.search.yahoo.com/sugg/chrome?output=fxjson&appid=crmas&command={searchTerms}",
-      "type": "SEARCH_ENGINE_YAHOO",
-      "id": 2
-    },
-
-    "yahoo_co": {
-      "name": "Yahoo! Colombia",
-      "keyword": "co.yahoo.com",
-      "favicon_url": "https://co.search.yahoo.com/favicon.ico",
-      "base_builtin_resource_id": "SEARCH_ENGINE_YAHOO",
-      "search_url": "https://co.search.yahoo.com/search{google:pathWildcard}?ei={inputEncoding}&fr=crmas&p={searchTerms}",
-      "suggest_url": "https://co.search.yahoo.com/sugg/chrome?output=fxjson&appid=crmas&command={searchTerms}",
-      "type": "SEARCH_ENGINE_YAHOO",
-      "id": 2
     },
 
     "yahoo_de": {
@@ -682,28 +590,6 @@
       ]
     },
 
-    "yahoo_hk": {
-      "name": "Yahoo! Hong Kong",
-      "keyword": "hk.yahoo.com",
-      "favicon_url": "https://hk.search.yahoo.com/favicon.ico",
-      "base_builtin_resource_id": "SEARCH_ENGINE_YAHOO",
-      "search_url": "https://hk.search.yahoo.com/search{google:pathWildcard}?ei={inputEncoding}&fr=crmas&p={searchTerms}",
-      "suggest_url": "https://hk.search.yahoo.com/sugg/chrome?output=fxjson&appid=crmas&command={searchTerms}",
-      "type": "SEARCH_ENGINE_YAHOO",
-      "id": 2
-    },
-
-    "yahoo_id": {
-      "name": "Yahoo! Indonesia",
-      "keyword": "id.yahoo.com",
-      "favicon_url": "https://id.search.yahoo.com/favicon.ico",
-      "base_builtin_resource_id": "SEARCH_ENGINE_YAHOO",
-      "search_url": "https://id.search.yahoo.com/search{google:pathWildcard}?ei={inputEncoding}&fr=crmas&p={searchTerms}",
-      "suggest_url": "https://id.search.yahoo.com/sugg/chrome?output=fxjson&appid=crmas&command={searchTerms}",
-      "type": "SEARCH_ENGINE_YAHOO",
-      "id": 2
-    },
-
     "yahoo_in": {
       "name": "Yahoo! India",
       "keyword": "in.yahoo.com",
@@ -785,28 +671,6 @@
       ]
     },
 
-    "yahoo_mx": {
-      "name": "Yahoo! M\u00e9xico",
-      "keyword": "mx.yahoo.com",
-      "favicon_url": "https://mx.search.yahoo.com/favicon.ico",
-      "base_builtin_resource_id": "SEARCH_ENGINE_YAHOO",
-      "search_url": "https://mx.search.yahoo.com/search{google:pathWildcard}?ei={inputEncoding}&fr=crmas&p={searchTerms}",
-      "suggest_url": "https://mx.search.yahoo.com/sugg/chrome?output=fxjson&appid=crmas&command={searchTerms}",
-      "type": "SEARCH_ENGINE_YAHOO",
-      "id": 2
-    },
-
-    "yahoo_my": {
-      "name": "Yahoo! Malaysia",
-      "keyword": "malaysia.yahoo.com",
-      "favicon_url": "https://malaysia.search.yahoo.com/favicon.ico",
-      "base_builtin_resource_id": "SEARCH_ENGINE_YAHOO",
-      "search_url": "https://malaysia.search.yahoo.com/search{google:pathWildcard}?ei={inputEncoding}&fr=crmas&p={searchTerms}",
-      "suggest_url": "https://malaysia.search.yahoo.com/sugg/chrome?output=fxjson&appid=crmas&command={searchTerms}",
-      "type": "SEARCH_ENGINE_YAHOO",
-      "id": 2
-    },
-
     "yahoo_nl": {
       "name": "Yahoo Search",
       "keyword": "nl.yahoo.com",
@@ -830,39 +694,6 @@
       ]
     },
 
-    "yahoo_nz": {
-      "name": "Yahoo! New Zealand",
-      "keyword": "nz.yahoo.com",
-      "favicon_url": "https://nz.search.yahoo.com/favicon.ico",
-      "base_builtin_resource_id": "SEARCH_ENGINE_YAHOO",
-      "search_url": "https://nz.search.yahoo.com/search{google:pathWildcard}?ei={inputEncoding}&fr=crmas&p={searchTerms}",
-      "suggest_url": "https://nz.search.yahoo.com/sugg/chrome?output=fxjson&appid=crmas&command={searchTerms}",
-      "type": "SEARCH_ENGINE_YAHOO",
-      "id": 2
-    },
-
-    "yahoo_pe": {
-      "name": "Yahoo! Per\u00fa",
-      "keyword": "pe.yahoo.com",
-      "favicon_url": "https://pe.search.yahoo.com/favicon.ico",
-      "base_builtin_resource_id": "SEARCH_ENGINE_YAHOO",
-      "search_url": "https://pe.search.yahoo.com/search{google:pathWildcard}?ei={inputEncoding}&fr=crmas&p={searchTerms}",
-      "suggest_url": "https://pe.search.yahoo.com/sugg/chrome?output=fxjson&appid=crmas&command={searchTerms}",
-      "type": "SEARCH_ENGINE_YAHOO",
-      "id": 2
-    },
-
-    "yahoo_ph": {
-      "name": "Yahoo! Philippines",
-      "keyword": "ph.yahoo.com",
-      "favicon_url": "https://ph.search.yahoo.com/favicon.ico",
-      "base_builtin_resource_id": "SEARCH_ENGINE_YAHOO",
-      "search_url": "https://ph.search.yahoo.com/search{google:pathWildcard}?ei={inputEncoding}&fr=crmas&p={searchTerms}",
-      "suggest_url": "https://ph.search.yahoo.com/sugg/chrome?output=fxjson&appid=crmas&command={searchTerms}",
-      "type": "SEARCH_ENGINE_YAHOO",
-      "id": 2
-    },
-
     "yahoo_se": {
       "name": "Yahoo Search",
       "keyword": "se.yahoo.com",
@@ -884,39 +715,6 @@
           "suggest_params": "appid=gglandreucrmas"
         }
       ]
-    },
-
-    "yahoo_sg": {
-      "name": "Yahoo! Singapore",
-      "keyword": "sg.yahoo.com",
-      "favicon_url": "https://sg.search.yahoo.com/favicon.ico",
-      "base_builtin_resource_id": "SEARCH_ENGINE_YAHOO",
-      "search_url": "https://sg.search.yahoo.com/search{google:pathWildcard}?ei={inputEncoding}&fr=crmas&p={searchTerms}",
-      "suggest_url": "https://sg.search.yahoo.com/sugg/chrome?output=fxjson&appid=crmas&command={searchTerms}",
-      "type": "SEARCH_ENGINE_YAHOO",
-      "id": 2
-    },
-
-    "yahoo_th": {
-      "name": "Yahoo! \u0e1b\u0e23\u0e30\u0e40\u0e17\u0e28\u0e44\u0e17\u0e22",
-      "keyword": "th.yahoo.com",
-      "favicon_url": "https://th.search.yahoo.com/favicon.ico",
-      "base_builtin_resource_id": "SEARCH_ENGINE_YAHOO",
-      "search_url": "https://th.search.yahoo.com/search{google:pathWildcard}?ei={inputEncoding}&fr=crmas&p={searchTerms}",
-      "suggest_url": "https://th.search.yahoo.com/sugg/chrome?output=fxjson&appid=crmas&command={searchTerms}",
-      "type": "SEARCH_ENGINE_YAHOO",
-      "id": 2
-    },
-
-    "yahoo_tr": {
-      "name": "Yahoo! T\u00fcrkiye",
-      "keyword": "tr.yahoo.com",
-      "favicon_url": "https://tr.search.yahoo.com/favicon.ico",
-      "base_builtin_resource_id": "SEARCH_ENGINE_YAHOO",
-      "search_url": "https://tr.search.yahoo.com/search{google:pathWildcard}?ei={inputEncoding}&fr=crmas&p={searchTerms}",
-      "suggest_url": "https://tr.search.yahoo.com/sugg/chrome?output=fxjson&command={searchTerms}",
-      "type": "SEARCH_ENGINE_YAHOO",
-      "id": 2
     },
 
     "yahoo_tw": {
