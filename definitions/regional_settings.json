@@ -1131,11 +1131,11 @@
     },
     "RU": {
       "search_engines": [
-        "&google",
         "&yandex_ru",
+        "&google",
+        "&bing",
         "&duckduckgo",
-        "&brave",
-        "&bing"
+        "&mail_ru"
       ]
     },
     "SA": {
