@@ -297,8 +297,8 @@
         "&google",
         "&yandex_by",
         "&bing",
-        "&duckduckgo",
-        "&mail_ru"
+        "&brave",
+        "&duckduckgo"
       ]
     },
     "CA": {
@@ -1131,11 +1131,11 @@
     },
     "RU": {
       "search_engines": [
-        "&yandex_ru",
         "&google",
-        "&bing",
+        "&yandex_ru",
         "&duckduckgo",
-        "&mail_ru"
+        "&brave",
+        "&bing"
       ]
     },
     "SA": {
